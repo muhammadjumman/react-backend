@@ -33,4 +33,14 @@ module.exports = {
       chunks: 'all',
     },
   },
+  mode: 'development',
+  // watch: true,
+  devServer: {
+    // static: {
+    //   directory: path.join(__dirname, 'server','public'),
+    // },
+    hot: true,
+    compress: true,
+    port: 9000,
+  },
 };
